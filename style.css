@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    color: white;
+    
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 0.6s ease;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    /* margin: 37.9%; */
+    top: 55%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    font-size: 70px;
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 42%;
+}
+.btn{
+    color: aliceblue;
+    padding: 15px 20px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
